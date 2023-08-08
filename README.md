@@ -10,3 +10,12 @@
 ## Transform
 
 
+## Data Lake
+
+Contains the following data:
+
+- Confirmed Cases
+- Mortality
+- Hospitilisation / ICU Cases
+- Testing Numbers
+- Countrys population by age group
