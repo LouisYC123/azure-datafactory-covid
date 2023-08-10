@@ -60,6 +60,21 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "Check if file exists",
+				"type": "Validation",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"dataset": {
+						"referenceName": "ds_population_raw_gz",
+						"type": "DatasetReference"
+					},
+					"timeout": "1.00:00:00",
+					"sleep": 600,
+					"minimumSize": 1024
+				}
 			}
 		],
 		"annotations": []
