@@ -1,5 +1,5 @@
 {
-	"name": "pl_ingest_cases_deaths_data",
+	"name": "pl_ingest_ecdc_data",
 	"properties": {
 		"activities": [
 			{
@@ -54,6 +54,10 @@
 							"relativeURL": {
 								"value": "@pipeline().parameters.sourceRelativeURL",
 								"type": "Expression"
+							},
+							"baseURL": {
+								"value": "@pipeline().parameters.sourceBaseURL",
+								"type": "Expression"
 							}
 						}
 					}
@@ -77,6 +81,9 @@
 				"type": "string"
 			},
 			"sinkFileName": {
+				"type": "string"
+			},
+			"sourceBaseURL": {
 				"type": "string"
 			}
 		},
