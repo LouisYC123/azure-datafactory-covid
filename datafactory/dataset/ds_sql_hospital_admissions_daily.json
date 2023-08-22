@@ -1,0 +1,16 @@
+{
+	"name": "ds_sql_hospital_admissions_daily",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_covid_db",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "covid_reporting",
+			"table": "hospital_admissions_daily"
+		}
+	}
+}
