@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'ls_adls_covidreportingdllg'"
 		},
+		"ls_db_covid_cluster_accessToken": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accessToken' of 'ls_db_covid_cluster'"
+		},
 		"ls_adls_covidreportingdllg_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://covidreportinglgdl.dfs.core.windows.net/"
@@ -55,6 +59,9 @@
 					},
 					"ls_adls_covidreportingdllg_accountKey": {
 						"value": "[parameters('ls_adls_covidreportingdllg_accountKey')]"
+					},
+					"ls_db_covid_cluster_accessToken": {
+						"value": "[parameters('ls_db_covid_cluster_accessToken')]"
 					},
 					"ls_adls_covidreportingdllg_properties_typeProperties_url": {
 						"value": "[parameters('ls_adls_covidreportingdllg_properties_typeProperties_url')]"
