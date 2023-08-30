@@ -161,3 +161,6 @@ cython_debug/
 
 materials
 .DS_Store
+
+data
+media/azure-covid-proj.drawio
