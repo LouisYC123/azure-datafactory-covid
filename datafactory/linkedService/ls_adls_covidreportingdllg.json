@@ -1,0 +1,12 @@
+{
+	"name": "ls_adls_covidreportingdllg",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://covidreportinglgdl.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDRGMDExMTk1LUU0MDAtNEU0Qy1CNUE5LTAwOTQ5Njk5MDdFQl9hYmQyNTUyYy02YTAyLTRiN2UtYWM2MC04MDBjYmNhMzcyNWMiDQp9"
+		}
+	}
+}
