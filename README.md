@@ -6,6 +6,9 @@
 
 ![dash1](https://github.com/LouisYC123/azure-datafactory-covid/assets/97873724/e01551b8-18bb-4be7-a627-48cc8e62bdeb)  
 
+
+![dash1](https://github.com/LouisYC123/azure-datafactory-covid/assets/97873724/e01551b8-18bb-4be7-a627-48cc8e62bdeb)  
+
 ![dash3](https://github.com/LouisYC123/azure-datafactory-covid/assets/97873724/5755f081-2d69-48c8-b893-1eda2bcb2ee3)
 
 ## Prerequisites
